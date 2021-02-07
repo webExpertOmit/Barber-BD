@@ -1,0 +1,1140 @@
+  /*Common css===========*/
+  .main-menu .active {
+      color: #ed913c;
+  }
+
+  .primary-color {
+      color: #ed913c;
+  }
+
+  .primary-bg {
+      background: #ed913c;
+  }
+
+  .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #fff;
+
+  }
+
+  .section-title h2 {
+      font-weight: 600;
+  }
+
+
+  /*top menu================*/
+  .top-menu {
+      background: #141414;
+      border-bottom: .5px solid #f1f1f1;
+
+  }
+
+  .top-menu li a {
+      font-size: 12px;
+      color: #fff;
+  }
+
+  .top-menu .icon-nav {
+      justify-content: flex-end;
+  }
+
+  .icon-nav li a i:hover {
+      color: #ed913c;
+  }
+
+
+
+  /*main manu==============*/
+  .logo img {
+      width: 80px;
+      border-radius: 50%;
+  }
+
+  .main-menu {
+      background: #070707;
+      padding: 10px 0px;
+  }
+
+  .main-menu .mainMenu {
+      margin-left: 150px;
+  }
+
+  .main-menu li a {
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #fff;
+
+  }
+
+  .main-menu li a:hover {
+      color: #ed913c;
+  }
+
+  .main-menu .our-btn {
+      margin-left: auto;
+      text-transform: uppercase;
+
+  }
+
+  .main-menu .btn-bg {
+      background: #ed913c;
+      border: none;
+      color: #fff;
+      padding: 5px 15px;
+      font-size: 13px;
+  }
+
+  .main-menu .btn-bg:focus {
+      outline: 0;
+  }
+
+  .main-menu .btn-bg:hover {
+      background: #fff;
+      color: #ed913c;
+      transition: .5s;
+  }
+
+  .main-menu .nav-icon {
+      color: #fff;
+  }
+
+  .main-menu a {
+      color: #fff;
+      margin-left: 15px;
+  }
+
+  .main-menu .font {
+      font-size: 12px;
+  }
+
+  .fixed .main-menu {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      background: #222;
+      z-index: 999;
+      padding: 0;
+  }
+.fixed .logo img{
+    width: 50px;
+}
+
+  .fixed .slider-area {
+      padding-top: 100px;
+  }
+
+  .dropdown-container {
+      position: relative;
+      margin-top: -25px;
+
+  }
+
+  .dropdown-container:hover .dropdown-content {
+      display: block;
+      transition: .5s;
+  }
+
+  .dropdown-content {
+      background: #ed913c;
+      display: none;
+      padding: 10px 20px;
+      position: absolute;
+      z-index: 3000;
+  }
+
+  .dropdown-content li a {
+      text-decoration: none;
+      text-align: left;
+      font-size: 10px;
+
+  }
+
+  .dropdown-content li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .main-menu .dropdown-content a:hover {
+      color: #222;
+      text-align: left;
+      transition: .5s;
+  }
+
+  .main-menu li .user {
+      color: #ed913c;
+  }
+
+
+
+
+  /*Slider section================*/
+
+  .slider img {
+      width: 100%;
+  }
+
+  .slider {
+      position: relative;
+  }
+
+  .slider::before {
+      position: absolute;
+      content: "";
+      background: #222;
+      opacity: 0.7;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+
+  .slider-content1 {
+      position: absolute;
+      bottom: 20%;
+      right: 15%;
+  }
+
+  .slider-content1 h2 {
+      font-size: 50px;
+      color: #fff;
+      font-weight: bold;
+  }
+
+  .slider-content1 h1 {
+      font-size: 60px;
+      color: #ed913c;
+      font-weight: bold;
+  }
+
+  .slider-content1 .btn-bg {
+      background: #ed913c;
+      color: #fff;
+      padding: 5px 25px;
+      border: none;
+      margin-top: 20px;
+  }
+
+  .slider-content1 .btn-bg:focus {
+      outline: 0;
+  }
+
+  .slider-content1 .btn-bg:hover {
+      background: #fff;
+      color: #ed913c;
+      transition: .5s;
+  }
+
+  .slider-content2 {
+      position: absolute;
+      bottom: 35%;
+      left: 15%;
+  }
+
+  .slider-content2 h1 {
+      font-size: 120px;
+      color: #ed913c;
+      font-weight: bold;
+  }
+
+  .slider-content2 h1 span {
+      font-size: 40px;
+      color: #fff;
+  }
+
+  .slider-content2 h5 {
+      color: #ed913c;
+  }
+
+
+  /*Our Services===============*/
+
+  .services-section {
+
+      background: #222;
+      padding: 80px 0px;
+      position: relative;
+  }
+
+  .services-area {
+      background: #f4f4f4;
+      margin-bottom: 30px;
+      text-align: center;
+      padding-bottom: 15px;
+  }
+
+  .services-area img {
+      width: 100%;
+  }
+
+  .sub-img {
+      width: 80px;
+      height: 80px;
+      margin: auto;
+      margin-top: -40px;
+
+  }
+
+  .sub-img img {
+      border-radius: 50%;
+  }
+
+  .services-area h5 {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 0 15px;
+  }
+
+  .services-area .btn-info {
+      border: 1px solid #ed913c;
+      background: none;
+      color: #ed913c;
+      padding: 5px 15px;
+      text-transform: uppercase;
+  }
+
+  .services-areat .btn-info:focus {
+      outline: 0;
+  }
+
+  .services-area .btn-info:hover {
+      background: #ed913c;
+      color: #fff;
+      border: none;
+      transition: .4s;
+
+  }
+
+
+ /*Product section================*/
+.our-product-section{
+    background: #222;
+    padding: 80px 0px;
+}
+.our-product-area{
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 15px;
+}
+.our-product-area .card-body{
+     background: #f4f4f4;
+}
+.product-btn{
+    background:#ed913c;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: 12px;
+}
+.product-btn:hover{
+    background: #222;
+    color: #fff;
+}
+.our-product-area:hover .product-btn {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: .4s;
+}
+.product-btn:focus{
+    outline: 0;
+}
+.our-product-section .our-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.our-product-section .our-btn .btn-info{
+    text-transform: uppercase;
+    border: 1px solid #ed913c;
+    color: #ed913c;
+    background: None;
+}
+.our-product-section .our-btn .btn-info:hover{
+    background:#ed913c;
+    color: #fff;
+}
+
+
+
+  /*Appointment section================*/
+
+  .appointment-section {
+      background: #b4b4b4;
+      padding: 80px 0px;
+  }
+
+  .appointment-section .our-btn {
+      text-align: center;
+  }
+
+  .appointment-section .our-btn .btn-info {
+      text-transform: uppercase;
+      margin-top: 50px;
+      padding: 10px 30px;
+      border: none;
+      background: #ed913c;
+  }
+
+.appointment-section .our-btn .btn-info:hover{
+    background: #222;
+    color: #fff;
+}
+
+  .appointment-section .our-btn .btn-info:focus {
+      outline: 0;
+  }
+
+  .appointment-content {
+      padding: 20px 30px;
+  }
+
+  .appointment-content h2 {
+      font-size: 45px;
+      margin-bottom: 20px;
+      font-weight: 600;
+  }
+
+  .appointment-from .select {
+      width: 100%;
+      height: 40px;
+      background: #f6f6f6;
+      margin-top: 20px;
+      border: 1px solid #888;
+      padding: 0px 10px;
+  }
+
+  .appointment-from .select:focus {
+      outline: 0;
+  }
+
+  .appointment-from input {
+      width: 100%;
+      height: 40px;
+      background: #f6f6f6;
+      margin-top: 20px;
+      border: 1px solid #888;
+      padding: 0px 10px;
+  }
+
+  .appointment-from input:focus {
+      outline: 0;
+  }
+
+  .appointment-from .td {
+      margin: 0;
+  }
+
+  .appointment-from label {
+      margin-top: 20px;
+  }
+
+  /*Gallery section================*/
+
+  .gallery-section {
+      background: #222;
+      padding: 80px 0px;
+  }
+
+  .gallery-section img {
+      width: 100%;
+  }
+
+.gallery-section .our-btn{
+    text-align: center;
+    padding-top: 50px;
+}
+.gallery-section .btn-info{
+    background: none;
+    color: #ed913c;
+   border: 1px solid #ed913c;
+    text-transform: uppercase;
+    
+}
+.gallery-section .btn-info:hover{
+    background:#ed913c;
+    border: 1px solid #ed913c;
+    color: #fff;
+    
+}
+
+
+
+
+  /*About section================*/
+
+  .about-section {
+      background: #b4b4b4;
+      padding: 80px 0px;
+  }
+
+  .about-section .section-title {
+      color: #000;
+  }
+
+  .about-section img {
+      width: 100%;
+      border-radius: 50%;
+  }
+
+
+  /*Footer section==============*/
+
+  .footer-top {
+      background-image: url(../img/bg.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 140px 0px;
+      position: relative;
+  }
+
+  .footer-top::before {
+      content: "";
+      position: absolute;
+      background: rgba(0, 0, 0, .8);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+
+  .footer-top h6 {
+      color: #f6f6f6;
+      margin-bottom: 30px;
+  }
+
+  .footer-top h6 i {
+      color: #ed913c;
+      margin-right: 15px;
+  }
+
+  .footer-top .footer-form {
+      background: none;
+      border: none;
+      border-bottom: 1px solid #f6f6f6;
+      padding: 5px 0px;
+      width: 45%;
+      color: #f6f6f6;
+  }
+
+  .footer-top input:focus {
+      outline: 0;
+  }
+
+  .footer-top textarea {
+      background: none;
+      margin-top: 50px;
+      border: none;
+      border-bottom: 1px solid #f6f6f6;
+      width: 100%;
+      color: #f6f6f6;
+      margin-bottom: 10px;
+  }
+
+  .footer-top textarea:focus {
+      outline: 0;
+  }
+
+  .footer-top label {
+      color: #f6f6f6;
+      margin-left: 10px;
+  }
+
+  .footer-btn {
+      background: #f6f6f6;
+      padding: 10px 25px;
+      font-weight: 700;
+      font-size: 14px;
+      margin-top: 20px;
+      border: none;
+  }
+
+  .footer-bottom {
+      background: #222;
+      text-align: center;
+      padding: 20px 0px;
+  }
+
+  .footer-bottom p {
+      color: #f6f6f6;
+  }
+
+  .footer-bottom .nav {
+      justify-content: center;
+  }
+
+  .footer-bottom .nav a i {
+      color: #ed913c;
+  }
+
+  .footer-bottom .nav a i:hover {
+      transform: rotate(360deg);
+      transition: .4s;
+  }
+
+
+
+  /* Arrow Section ==============*/
+
+  .top {
+      width: 35px;
+      height: 35px;
+      background: #ed913c;
+      text-align: center;
+      font-size: 20px;
+      position: fixed;
+      right: 40px;
+      bottom: 40px;
+      border-radius: 5px;
+      transition: .5s;
+  }
+
+  .top:hover {
+      background: #444;
+  }
+
+  .top a {
+      color: #fff;
+  }
+
+  /* Cart Section ==============*/
+
+  .cart {
+      width: 70px;
+      height: 65px;
+      background: #ed913c;
+      text-align: center;
+      font-size: 20px;
+      position: fixed;
+      right: 0px;
+      bottom: 50%;
+      line-height: 2;
+      transition: .5s;
+      z-index: 88888;
+  }
+
+  .cart a {
+      color: #fff;
+  }
+
+  .cart p {
+      color: #222;
+      font-size: 12px;
+      text-align: center;
+      padding: 2px;
+      background: #c8c8c8;
+      font-weight: 700;
+  }
+
+  .bottom-style {
+      background: #222;
+      border: none;
+      width: 100%;
+      text-align: left;
+      display: none;
+  }
+
+
+  /*Shopping cart================*/
+  .shoppingCart {
+      width: 300px;
+      height: 100vh;
+      background: #fff;
+      position: fixed;
+      top: 95px;
+      right: 0;
+      display: none;
+      z-index: 2222;
+  }
+
+  .shopping-top {
+      padding: 10px 30px;
+      background: #f6f6f6;
+  }
+
+  .shopping-top .left {
+      font-size: 18px;
+      text-align: left;
+  }
+
+  .shopping-top .right {
+      margin-left: 120px;
+      font-size: 25px;
+  }
+
+  .shopping-bg-img {
+      text-align: center;
+      color: darkgray;
+      margin-top: 80px;
+  }
+
+  .shopping-order {
+      background: #f6f6f6;
+      padding: 15px 23px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+  }
+
+  .btn-place {
+      background: #ed913c;
+      color: #fff;
+  }
+
+  .btn-place:hover {
+      background: #222;
+      color: #fff;
+  }
+
+  .tk {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 100px;
+  }
+.table-title{
+    font-size: 10px;
+}
+.table-price{
+    font-size: 10px;
+}
+.table-btn{
+    font-size: 10px;
+    background: red;
+    color: #fff;
+    border: none;
+}
+.shopping-cart-table{
+    display: none;
+}
+    
+
+
+
+
+
+  /*Login Css=============================*/
+
+  .header-section {
+      z-index: 999;
+      position: inherit;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+
+  .main-menu {
+      background: #070707;
+      padding: 10px 0px;
+      opacity: 1;
+  }
+
+  .main-menu .font {
+      font-size: 12px;
+  }
+
+  .login-section {
+      padding: 80px 0px;
+  }
+
+  .login-area {
+      width: 500px;
+      margin: auto;
+      padding: 40px;
+      box-shadow: 0px 0px 2px 0px #888888;
+  }
+
+  .login-area input {
+      width: 100%;
+      padding: 10px 20px;
+      margin: 10px 0px;
+  }
+
+  .login-area .check {
+      width: 10px;
+  }
+
+  .login-area input:focus {
+      outline: 0;
+  }
+
+  .login-area .login-btn {
+      width: 100%;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 30px;
+      margin: 30px 0px;
+      border: none;
+      background: #ed913c;
+      color: #fff;
+      font-weight: 600;
+  }
+
+  .login-area .login-btn:focus {
+      outline: 0;
+  }
+
+  .login-area .login-btn:hover {
+      background: #070707;
+      color: #fff;
+      transition: .5s;
+  }
+
+  .login-area .login {
+      font-size: 28px;
+      font-weight: 600;
+      color: #ed913c;
+      position: absolute;
+      margin-top: -74px;
+      background: #fff;
+      padding: 10px;
+  }
+
+  .login-area .ml {
+      margin-left: 160px;
+  }
+
+
+
+
+
+
+  /* Account css================*/
+  .account-section {
+      padding: 80px 0px;
+  }
+
+  .account-area {
+      width: 500px;
+      margin: auto;
+      box-shadow: 0px 0px 2px 0px #888888;
+      padding: 40px;
+
+  }
+
+
+  /*Appoinment css=========================*/
+
+.appointment-section-here {
+    background: #fff;
+    padding: 80px 0px;
+}
+
+
+  h1 {
+      text-align: center;
+      color: #222;
+  }
+
+  thead,
+  tbody {
+      text-align: center;
+  }
+
+  .appointment-area {
+      box-shadow: 0px 0px 2px 0px #888888;
+      padding: 40px;
+  }
+
+
+/*Gallery Page Css=====================*/
+.our-gallery-section {
+    padding: 80px 0px;
+}
+
+.our-gallery-section img{
+    width: 100%;
+}
+.pagination{
+    justify-content: center;
+}
+
+
+
+
+  /*Product Cart Css============================*/
+
+  .product-section {
+      padding: 100px 0px;
+  }
+
+  .product-img {
+      width: 80px;
+      height: 80px;
+  }
+
+  .product-img img {
+      width: 100%;
+  }
+
+  .product-area {
+      width: 100%;
+  }
+
+  .btn-col {
+      background: #ed913c;
+      color: #fff;
+  }
+
+  .btn-col:hover {
+      background: #222;
+      color: #fff;
+  }
+
+  .product-count {
+      border: 1px solid #222;
+      padding: 0px 5px;
+      cursor: pointer;
+      font-size: 18px;
+  }
+
+
+
+
+
+
+
+
+
+
+  /*
+=====================================================================
+                Responsive css
+=====================================================================
+*/
+
+
+
+  /*=====================================================================
+  Use a media query to add a breakpoint at min 786px and max 991px
+======================================================================*/
+  @media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+      body {
+          font-size: 13px;
+      }
+
+      .top-menu ul li a {
+          font-size: 10px;
+          text-align: center;
+      }
+
+      .top-menu .nav {
+          justify-content: center;
+      }
+
+      .header-section {
+          position: inherit;
+          background: #413c3c;
+      }
+
+      .logo img {
+          width: 60px;
+      }
+
+      .main-menu .menu {
+          margin: 0;
+      }
+
+      .main-menu .btn-bg {
+          display: none;
+      }
+
+      .main-menu .mainMenu {
+          margin-left: 0px;
+      }
+      .footer-top .footer-form {
+          width: 90%;
+          margin: 0;
+      }
+      
+      
+
+
+  }
+
+
+  /*=====================================================================
+  Use a media query to add a breakpoint at min 451px and max 767px
+======================================================================*/
+@media screen and (min-device-width: 451px) and (max-device-width: 767px){
+     .top {
+          width: 0;
+          height: 0;
+          font-size: 0;
+      }
+     .main-menu .btn-bg {
+          display: none;
+      }
+
+      .main-menu .mainMenu {
+          margin-left: 0px;
+      }
+    .top-menu {
+          display: none;
+      }
+      .slider-content2 h1 {
+          font-size: 14px;
+          margin-top: 15px;
+      }
+      .slider-content2 h1 span{
+          font-size: 16px;
+      }
+       .slider-content2 h5 {
+          font-size: 10px;
+      }
+        
+      .slider-content1 h1 {
+          font-size: 16px;
+      }
+      
+      .slider-content1 h2 {
+          font-size: 14px;
+      }
+      .slider-content1 .btn-bg{
+          display: none;
+      }
+    .footer-top .footer-form {
+          width: 90%;
+          margin: 0;
+      }
+     .login-area {
+          width: 400px;
+      }
+
+    
+    
+    
+    
+}
+
+
+
+
+
+  /*=====================================================================
+  Use a media query to add a breakpoint at min 250px and max 450px
+======================================================================*/
+
+  @media screen and (min-device-width: 250px) and (max-device-width: 450px) {
+
+      .top {
+          width: 0;
+          height: 0;
+          font-size: 0;
+      }
+
+      body {
+          font-size: 13px;
+      }
+
+      .top-menu {
+          display: none;
+      }
+
+      .header-section {
+          position: inherit;
+          background: #413c3c;
+      }
+
+      .logo img {
+          width: 50px;
+      }
+
+      .section-title h2 {
+          font-size: 24px;
+      }
+
+      .appointment-content h2 {
+          font-size: 30px;
+      }
+
+      .slider-content2 h1 {
+          font-size: 14px;
+          margin-top: 15px;
+      }
+      .slider-content2 h1 span{
+          font-size: 16px;
+      }
+       .slider-content2 h5 {
+          font-size: 10px;
+      }
+        
+      .slider-content1 h1 {
+          font-size: 16px;
+      }
+      
+      .slider-content1 h2 {
+          font-size: 14px;
+      }
+      .slider-content1 .btn-bg{
+          display: none;
+      }
+
+      .main-menu .menu {
+          margin: 0;
+      }
+
+      .footer-top .footer-form {
+          width: 90%;
+          margin: 0;
+      }
+
+      .cart {
+          width: 45px;
+          height: 45px;
+          background: #ed913c;
+          text-align: center;
+          font-size: 20px;
+          position: fixed;
+          right: 0px;
+          bottom: 0px;
+          line-height: 2;
+          border-radius: 5px;
+          transition: .5s;
+          z-index: 5000;
+      }
+
+      .bottom-style {
+          background: #413c3c;
+          padding: 4px 20px;
+          font-size: 28px;
+          color: #fff;
+          position: fixed;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          z-index: 0;
+          display: block;
+      }
+
+
+      .login-area {
+          width: 300px;
+      }
+
+      .login-area .ml {
+          margin-left: 5px;
+      }
+
+
+      .main-menu .btn-bg {
+          display: none;
+      }
+
+      .main-menu .mainMenu {
+          margin-left: 0px;
+      }
+
+
+
+
+  }

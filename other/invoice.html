@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> barber bd </title>
+    <!--==========Bootstrap.min.css==========-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--==========Fontawesome.min.css==========-->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+
+    <!--==========Custom css==========-->
+    <link rel="stylesheet" href="../css/style.css">
+
+
+
+
+    <style>
+        @media print {
+            .noprint {
+                display: none;
+            }
+        }
+
+
+
+        .invoice-section {
+            padding: 100px 0px;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .bg-red {
+            background: #f6f6f6;
+        }
+
+        .print-btn {
+            background: #ed913c;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 30px;
+        }
+
+        .print-btn:hover {
+            background: #222;
+            color: #fff;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--Header Section start here-->
+
+    <section class="header-section">
+
+        <!--Top menu start here-->
+        <div class="top-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul class="nav">
+                            <li class="nav-item"><a href="#" class="nav-link"> <i class="fas fa-phone"></i> Call us an make an Appointment 386 40 556 558</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-map-marker-alt"></i> 12 Address Street, Barber City GS23</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-telegram-plane"></i> info@barber.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <ul class="nav icon-nav">
+                            <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-twitter"></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-facebook-f"></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-instagram"></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--top menu end here-->
+
+        <!--main menu start here-->
+        <div class="main-menu">
+            <div class="container">
+
+                <nav class="navbar navbar-expand-lg">
+                    <div class="logo">
+                        <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="nav-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto mainMenu">
+                            <li class="nav-item"><a href="../index.html" class="nav-link ">home</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link">SERVICES </a></li>
+                            <li class="nav-item"><a href="#product" class="nav-link">PRODUCT </a></li>
+                            <li class="nav-item"><a href="#gallery" class="nav-link">gallery</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+                        </ul>
+                        <div class="our-btn mr-5">
+                            <button class=" btn-bg">BOOK AN APPOINTMENT</button>
+                        </div>
+
+                        <a href="other/login.html" class="font"><i class="fas fa-user-plus"></i> LOGIN</a>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    </section>
+    <!--Header section End here-->
+
+
+    <!--    Invoice  section start here-->
+    <section class="invoice-section">
+        <div class="container">
+            <div class="bill-btn text-right noprint">
+                <button class="btn print-btn" onclick="onClickPrint()">Print</button>
+            </div>
+            <div class="bill-form">
+                <h4>Bill From</h4>
+                <p>Road No- 4A House No- 57 <br> Apartment No- 4 Dhanmondi, Dhaka-1209</p>
+            </div>
+            < <hr>
+                <div class="bill-to">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Bill To</h4>
+                            <p>Road No- 4A House No- 57 <br> Apartment No- 4 Dhanmondi, Dhaka-1209</p>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th class="text-left">Invoice</th>
+                                        <td>211</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left">Invoice Date</th>
+                                        <td>2/2/2021</td>
+                                    </tr>
+                                    <tr class="red bg-red">
+                                        <th class="text-left">Amount Due</th>
+                                        <td>5000.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bill-item mt-4">
+                    <table class="table">
+                        <thead>
+                            <tr class="text-left">
+                                <th>Item</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Unit Cost</th>
+                                <th scope="col">Line Total</th>
+                                <th scope="col">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-left">
+                                <td>Stylish Full Sleeve Formal Shirt</td>
+                                <td>3</td>
+                                <td>1500.00</td>
+                                <td>20.00</td>
+                                <td>pending</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="notice mt-5">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h4 class="red">Notice/Memo From Bamboochick</h4>
+                            <p>Free Shopping With 30 days money guarantee</p>
+                        </div>
+                        <div class="col-md-5">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th class="text-left">Subtotal</th>
+                                        <td>5000</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="text-left">Tax</th>
+                                        <td>550.00</td>
+                                    </tr>
+                                    <tr class="">
+                                        <th class="text-left">Delivery Charge</th>
+                                        <td>160</td>
+                                    </tr>
+                                    <tr class="red bg-red">
+                                        <th class="text-left">Total</th>
+                                        <td>5700/-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    <!--    Invoice section end here-->
+
+
+
+
+
+    <!--Footer section start here-->
+    <section class="footer-section">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h6><i class="far fa-envelope"></i> example@gmail.com</h6>
+                        <h6><i class="fas fa-phone"></i> 1 234 56 789</h6>
+                        <h6><i class="fas fa-map-marker-alt"></i> 2277 Dhaka Bangladesh</h6>
+                        <h6><i class="far fa-clock"></i> Tues-Fri 8-5 </h6>
+                    </div>
+                    <div class="col-md-7">
+                        <form action="">
+                            <input class="footer-form mr-5" type="text" placeholder="NAME *" required>
+                            <input class="footer-form" type="email" placeholder="EMAIL *" required>
+                            <textarea name="" id="" rows="3" placeholder="MESSAGE *"></textarea>
+
+                            <input class="checkbox" type="checkbox" name="vehicle1">
+                            <label> I agree that my submitted data is being collected and stored. </label><br>
+
+                            <button class="footer-btn">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p> © Dhaka 2021 - All Right Reserved. Developed By Omit Hasan</p>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-facebook-f"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-instagram"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> <i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer section end here-->
+
+
+
+
+
+
+
+    <!--==========jQuery.js==========-->
+    <script src="../js/jquery-3.5.1.min.js"></script>
+    <!--==========Bootstrap.min.js==========-->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!--Sopping Cart-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!--==========scripts.js.js==========-->
+    <script src="../js/scripts.js"></script>
+
+    <!--==========main.js==========-->
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
